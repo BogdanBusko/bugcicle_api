@@ -12,6 +12,7 @@ gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker', '>= 1.8.7'
 end
 
 group :development do
